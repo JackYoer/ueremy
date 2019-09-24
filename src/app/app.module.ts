@@ -9,6 +9,7 @@ import { BrowserComponent } from './browser/browser.component';
 import { EditorComponent } from './editor/editor.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { WelcomePageComponent } from './welcome-page/welcome-page.component';
+import { MapComponent } from './map/map.component';
 
 @NgModule({
    imports: [
@@ -16,7 +17,7 @@ import { WelcomePageComponent } from './welcome-page/welcome-page.component';
     FormsModule,
     AppRoutingModule
   ],
-  declarations: [ AppComponent, BrowserComponent, EditorComponent, PageNotFoundComponent, WelcomePageComponent ],
+  declarations: [ AppComponent, BrowserComponent, EditorComponent, PageNotFoundComponent, WelcomePageComponent, MapComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
