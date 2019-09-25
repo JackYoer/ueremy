@@ -7,8 +7,9 @@
    crossorigin=""></script>
 </head>
 
-<div id="map" style="height: 300px;"
+<div style="height: 300px;"
      leaflet 
-     [leafletOptions]="options"
-     [leafletLayers]="layers">
+     [leafletOptions]="options">
 </div>
+
+<p *ngIf="map == null">La mappa è null</p>

@@ -14,6 +14,10 @@ export class MapService {
 
   constructor() { }
 
+  removeMap(importMap): void {
+    importMap.remove();
+  }
+
   createMap(): Map {
 
     var map = L.map('map');
